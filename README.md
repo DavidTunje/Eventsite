@@ -24,3 +24,13 @@ The project also exposes **JSON APIs** to fetch events and register programmatic
 ---
 
 ## 📂 Project Structure
+eventsite/ # Main Django project
+events/ # Events app (models, views, templates, urls)
+├── models.py # Event & Registration models
+├── views.py # Homepage, detail, API endpoints
+├── urls.py # Routes for web + API
+├── templates/
+├── events/
+├── base.html
+├── home.html
+├── event_detail.html
